@@ -58,9 +58,7 @@ nom-du-repo/
 │   ├── main.py          # Point d'entrée FastAPI
 │   ├── models.py        # Modèles SQLAlchemy
 │   ├── database.py      # Connexion à MySQL
-│   ├── schemas.py       # Schémas Pydantic
 │   ├── crud.py          # Fonctions CRUD
-│   ├── routes.py        # Routes API
 │   ├── templates/       # Fichiers HTML
 │   ├── static/          # Fichiers CSS/JS
 │── README.md            # Documentation
