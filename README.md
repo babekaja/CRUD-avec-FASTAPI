@@ -24,7 +24,7 @@ Avant de commencer, assure-toi d'avoir installé :
 
 ### 1. Cloner le projet
 ```sh
-git clone https://github.com/babekaja/nom-du-repo.git
+git clone [https://github.com/babekaja/nom-du-repo.git](https://github.com/babekaja/CRUD-avec-FASTAPI.git)
 cd nom-du-repo
 ```
 
@@ -42,17 +42,8 @@ Assure-toi que MySQL est en cours d'exécution et crée une base de données :
 ```sql
 CREATE DATABASE fastapi_users;
 ```
-Modifie le fichier `config.py` avec tes informations de connexion MySQL :
-```python
-DATABASE_URL = "mysql+mysqlconnector://user:password@localhost/fastapi_users"
-```
 
-### 4. Appliquer les migrations
-```sh
-alembic upgrade head
-```
-
-### 5. Lancer le serveur
+### 4. Lancer le serveur
 ```sh
 uvicorn main:app --reload
 ```
@@ -72,8 +63,6 @@ nom-du-repo/
 │   ├── routes.py        # Routes API
 │   ├── templates/       # Fichiers HTML
 │   ├── static/          # Fichiers CSS/JS
-│── alembic/             # Migrations de base de données
-│── requirements.txt     # Dépendances Python
 │── README.md            # Documentation
 ```
 
@@ -132,7 +121,4 @@ Lance le projet et ouvre [http://127.0.0.1:8000](http://127.0.0.1:8000) dans ton
 Les contributions sont les bienvenues ! Forke ce projet et soumets une pull request. 😊
 
 ---
-
-## Licence
-Ce projet est sous licence MIT. Consulte le fichier `LICENSE` pour plus de détails.
 
