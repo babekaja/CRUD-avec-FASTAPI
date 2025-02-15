@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 Assure-toi que MySQL est en cours d'exécution et crée une base de données :
 ```sql
-CREATE DATABASE fastapi_users;
+CREATE DATABASE users;
 ```
 
 ### 4. Lancer le serveur
